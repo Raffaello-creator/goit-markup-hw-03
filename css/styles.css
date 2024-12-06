@@ -129,6 +129,7 @@ footer .logo_studio{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .stl_sect_two .stl_sect_two_p{
     font-weight: 400;
@@ -157,9 +158,11 @@ padding: 120px 0;
 }
 .stl_sect_three{
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 .li_background{
     background-color: #fff;
+    flex-basis: calc((100% - 72px) / 4);
 }
 .our_team_p{
     font-weight: 400;
@@ -214,4 +217,15 @@ padding: 120px 0;
 h1 {
     margin-left: auto;
     margin-right: auto;
+}
+.stl_sect_two_lili{
+    flex-basis: calc((100% - 72px) / 4);
+}
+.stl_sect_three_li{
+    display: flex;
+    gap: 24px;
+}
+.stl_sect_four{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
