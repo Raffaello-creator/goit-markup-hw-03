@@ -242,6 +242,7 @@ h1 {
 .stl_sect_three_li{
     display: flex;
     column-gap: 24px;
+    gap: 24;
     row-gap: 48px;
     flex-wrap: wrap;
 
