@@ -260,8 +260,9 @@ h1 {
     flex-wrap: wrap;
 }
 .stl_sect_four_li{
-        display: flex;
-        column-gap: 24px;
-        row-gap: 48px;
+    display: flex;
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
         
 }
