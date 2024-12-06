@@ -75,7 +75,7 @@ footer .logo_studio{
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-.stl_button{
+.stl_sect_one>.container>.stl_button{
     display: block;
     font-weight: 500;
     font-size: 16px;
@@ -127,7 +127,7 @@ footer .logo_studio{
 }
 .stl_sect_one{
     background-color: #2e2f42;
-    padding: 188px 0;
+    padding: 188px 0 188px;
 }
 .stl_sect_three{
     background-color: #f4f4fd;
@@ -154,11 +154,12 @@ footer .logo_studio{
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    justify-content: space-between;
+    
 }
 .header>.container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 .header>.container>.stl_nav{
