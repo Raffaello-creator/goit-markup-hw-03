@@ -88,7 +88,7 @@ footer .logo_studio{
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-.stl_sect_one>.container>.stl_button{
+.stl_sect_one .container .stl_button{
     display: block;
     font-weight: 500;
     font-size: 16px;
@@ -106,7 +106,7 @@ footer .logo_studio{
 .stl_button:hover, .stl_button:focus{
     background-color: #404bbf;
 }
-.stl_sect_one>.container>.stl_h_larg{
+.stl_sect_one .container .stl_h_larg{
     max-width: 496px;
     font-weight: 700;
     font-size: 56px;
@@ -124,7 +124,7 @@ footer .logo_studio{
     text-transform: capitalize;
     color: #2e2f42;
 }
-.stl_sect_two>.stl_sect_two_p{
+.stl_sect_two .stl_sect_two_p{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -172,32 +172,32 @@ padding: 120px 0;
     padding: 0 15px;
     
 }
-.header>.container{
+.header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-.header>.container>.stl_nav{
+.header .container .stl_nav{
     display: flex;
     align-items: center;
 
 }
-.header>.container>.stl_nav>.nav_li {
+.header .container .stl_nav .nav_li {
     display: flex;
     align-items: center;
     gap: 40px;
 }
-.header>.container>.contacts>.contacts_li {
+.header .container .contacts .contacts_li {
     display: flex;
     align-items: center;
     gap: 40px;
 }
-.stl_footer>.container>.logo{
+.stl_footer .container>.logo{
     display: inline-block;
     margin-bottom: 16px;
 }
-.stl_sect_two>.container>.stl_sect_two_li{
+.stl_sect_two_li{
     display: flex;
     gap: 24px;
 }
