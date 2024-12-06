@@ -15,16 +15,6 @@ ol,ul{
     margin: 0;
     padding-left: 0;
 }
-img{
-    display: block;
-}
-/*.container {
-    max-width:  ;
-        padding-left: ;
-        padding-right: ;
-        margin-left: ;
-        margin-right:  ;
-}*/
 a {
     text-decoration: none;
 }
@@ -137,7 +127,7 @@ footer .logo_studio{
     background-color: #2e2f42;
     padding: 188px 0;
 }
-.our_team_background{
+.stl_sect_three{
     background-color: #f4f4fd;
 }
 .li_background{
