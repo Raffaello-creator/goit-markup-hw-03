@@ -129,7 +129,7 @@ footer .logo_studio{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 .stl_sect_two .stl_sect_two_p{
     font-weight: 400;
@@ -137,6 +137,7 @@ footer .logo_studio{
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+    
 }
 .stl_sect_two{
 padding: 120px 0;
