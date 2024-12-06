@@ -11,6 +11,10 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
 p{
     margin: 0;
 }
@@ -88,32 +92,34 @@ footer .logo_studio{
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-.stl_sect_one .container .stl_button{
-    display: block;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
+.stl_button{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
-    background-color: #4d5ae5;
     cursor: pointer;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
     min-width: 169px;
-    min-height: 56px;
+    height: 56px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 .stl_button:hover, .stl_button:focus{
     background-color: #404bbf;
 }
-.stl_sect_one .container .stl_h_larg{
-    max-width: 496px;
-    font-weight: 700;
+.stl_h_larg{
     font-size: 56px;
-    line-height: 107%;
-    letter-spacing: 0.02em;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.07;
     text-align: center;
-    color: #ffffff
+    letter-spacing: 0.02em;
+    max-width: 496px;
 }
 .stl_h_med{
     font-weight: 700;
@@ -141,9 +147,13 @@ padding: 120px 0;
     letter-spacing: 0.02em;
     color: #2e2f42; 
 }
-.stl_sect_one{
+.sectionone{
     background-color: #2e2f42;
-    padding: 188px 0 188px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 188px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .stl_sect_three{
     background-color: #f4f4fd;
@@ -166,11 +176,11 @@ padding: 120px 0;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.container{
+.container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
-    padding: 0 15px;
-    
 }
 .header .container{
     display: flex;
@@ -200,4 +210,8 @@ padding: 120px 0;
 .stl_sect_two_li{
     display: flex;
     gap: 24px;
+}
+h1 {
+    margin-left: auto;
+    margin-right: auto;
 }
