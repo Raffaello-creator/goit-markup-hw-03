@@ -193,7 +193,7 @@ padding: 120px 0;
     align-items: center;
     gap: 40px;
 }
-.stl_footer .container>.logo{
+.stl_footer .container .logo{
     display: inline-block;
     margin-bottom: 16px;
 }
