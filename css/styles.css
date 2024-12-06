@@ -4,7 +4,9 @@ p{
 h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
-
+img{
+    display: block;
+}
 body{
     font-family: "Roboto", sans-serif;
     color:  #434455;
@@ -91,7 +93,7 @@ footer .logo_studio{
 .stl_button:hover, .stl_button:focus{
     background-color: #404bbf;
 }
-.stl_h_larg{
+.stl_sect_one>.container>.stl_h_larg{
     max-width: 496px;
     font-weight: 700;
     font-size: 56px;
